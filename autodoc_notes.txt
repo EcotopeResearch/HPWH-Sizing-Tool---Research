@@ -19,8 +19,12 @@ Adding to github repo
 (1) add .nojekyll file with echo "" > docs/.nojekyll
 (2) create index.html file in docs that redirects to build
 	<meta http-equiv="refresh" content="0; url=./build/html/index.html" />
+(3) set gihub pages source to master/docs in github settings.
 
 
 reference:
 https://medium.com/@eikonomega/getting-started-with-sphinx-autodoc-part-1-2cebbbca5365
 https://www.youtube.com/watch?v=b4iFyrLQQh4
+
+https://github.com/sphinx-doc/sphinx/issues/3382
+https://www.docslikecode.com/articles/github-pages-python-sphinx/
