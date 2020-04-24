@@ -17,6 +17,8 @@
 	
 Adding to github repo
 (1) add .nojekyll file with echo "" > docs/.nojekyll
+(2) create index.html file in docs that redirects to build
+	<meta http-equiv="refresh" content="0; url=./build/html/index.html" />
 
 
 reference:
