@@ -5,6 +5,8 @@ Created on Thu Apr  9 16:58:48 2020
 @author: scott
 """
 
+from __future__ import division, absolute_import, print_function
+
 # dataframe imports
 import pandas as pd
 
