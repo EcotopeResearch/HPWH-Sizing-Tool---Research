@@ -1,0 +1,20 @@
+(1) Pip instal sphinx and numpydocs
+(2) Create a docs directory
+(3) Navigate to directory and run $ sphinx-quickstart
+(4) Add system path for root to conf.py
+	import os
+	import sys
+	sys.path.insert(0, os.path.abspath('../..'))
+(5) Add extensions to conf.py
+	extensions = ['sphinx.ext.autodoc', 'numpydoc','sphinx.ext.coverage', 'sphinx.ext.napoleon']
+(6) Add automodules to index.rst
+	.. automodule:: metered_data.functions
+		:members:
+(7) Make sure you write your docstrings!
+(8) Run $ make html in docs 
+(9) Edit theme if desired in conf.py
+	html_theme = 'sphinx_rtd_theme'
+
+reference:
+https://medium.com/@eikonomega/getting-started-with-sphinx-autodoc-part-1-2cebbbca5365
+https://www.youtube.com/watch?v=b4iFyrLQQh4
