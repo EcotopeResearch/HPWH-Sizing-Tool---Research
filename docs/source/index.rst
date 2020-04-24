@@ -1,0 +1,32 @@
+.. meter_data documentation master file, created by
+   sphinx-quickstart on Mon Apr 20 11:06:50 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Meter Data Timeseries Analysis Documentation
+============================================
+
+
+Another Simple Header
+=====================
+
+Here is some text explaining complicated stuff
+
+	print 'hello'
+	
+Guide
+^^^^^
+
+.. toctree::
+   :maxdepth: 2
+
+   license
+   meter_data
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
